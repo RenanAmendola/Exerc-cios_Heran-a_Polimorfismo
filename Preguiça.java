@@ -41,8 +41,8 @@ public class Preguiça extends Animal{
 		Genero = genero;
 	}
 
-	
-public void InfoP() {
+@Override	
+public void Info(String info) {
 		
 		System.out.println("Nome: "+ getNome()+ "\nIdade: "+getIdade()+"\nSom produzido: "+getSom()+"\nCorre: "+getCorrer()
 							+ "\nGenero: "+ Genero+"\nCor: "+Cor);

@@ -9,20 +9,29 @@ public class Main {
 		Cavalo Cav = new Cavalo("Pé de pano",8,"Som de cavalo padrao","Mais ainda","Quarto de milha","Macho","Branco");
 		Preguiça Pre = new Preguiça("Preguiça",5,"????","Nope","Femea","Caramelo");
 		
+		Animal Animal = null;
+		
+		int n = (int) (Math.random()*3.0);
+		
+		switch(n) {
 		
 		
+		case 0: Animal = Dog;break;
 		
-		Dog.InfoC();
-		System.out.println("\n");
-		Cav.InfoE();
-		System.out.println("\n");
-		Pre.InfoP();
+		case 1: Animal = Cav;break;
 		
-		
-		
-		
-		
+		case 2: Animal = Pre;break;
 
+		default: System.out.println("Erro inesperado");break;
+						
+		}
+		
+		if(Animal != null) {
+			
+			Animal.Info(null);
+						
+		}
+				
 	}
 
 }

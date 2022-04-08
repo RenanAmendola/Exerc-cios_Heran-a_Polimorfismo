@@ -42,13 +42,16 @@ public class Cachorro extends Animal{
 	}
 		
 	
+	
+	
+	
 
-	public void InfoC() {
-		
+
+
+	@Override
+	public void Info(String info) {
 		System.out.println("Nome: "+ getNome()+ "\nIdade: "+getIdade()+"\nSom produzido: "+getSom()+"\nCorre: "+getCorrer()
-							+"\nRaça: "+ Raca + "\nGenero: "+ Genero);
-		
-		
+		+"\nRaça: "+ Raca + "\nGenero: "+ Genero);
 		
 	}
 	

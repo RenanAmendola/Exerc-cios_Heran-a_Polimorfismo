@@ -1,5 +1,5 @@
 
-public class Animal {
+public abstract class Animal {
 	
 	private String Nome;
 	private int Idade;
@@ -20,7 +20,7 @@ public class Animal {
 				
 	}
 
-
+	abstract public void  Info(String info);
 
 
 
@@ -83,6 +83,8 @@ public class Animal {
 	public void setCorrer(String correr) {
 		Correr = correr;
 	}
+
+	
 	
 	
 	

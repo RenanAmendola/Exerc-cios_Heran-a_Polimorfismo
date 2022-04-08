@@ -39,8 +39,8 @@ public class Cavalo extends Animal{
 		Cor = cor;
 	}
 
-
-public void InfoE() {
+@Override
+public void Info(String info) {
 		
 		System.out.println("Nome: "+ getNome()+ "\nIdade: "+getIdade()+"\nSom produzido: "+getSom()+"\nCorre: "+getCorrer()
 							+"\nRaça: "+ Raca + "\nGenero: "+ Genero+ "\nCor: "+ Cor);
